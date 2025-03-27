@@ -1,13 +1,6 @@
 import java.util.*;
 
 public class arrays {
-
-     public static void updateMarks(int marks[]){
-        for(int i = 0 ; i<marks.length ; i++){
-            marks[i] = marks[i] + 1 ;
-        }
-    }
-    
     public static void main(String[] args) {
         int marks[] = new int[100]; // empty array stores zero
         System.out.println("length of array is = " + marks.length);
@@ -41,12 +34,6 @@ public class arrays {
 
         int percentage = (marks[0] + marks[1] + marks[2]) / 3;
         System.out.println("percentage = " + percentage + "%");
-
-        int marks[] = {45,46,47};
-        
-        updateMarks(marks);   //calling the function
-        
-        System.out.println(Arrays.toString(marks))
 
     }
 
